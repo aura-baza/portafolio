@@ -1,11 +1,11 @@
+@font-face {
+  font-family: firma;
+  src: url(JMH\ Typewriter.otf);
+}
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: 0px;
-}
-@font-face {
-  font-family: firma;
-  src: url(JMH\ Typewriter.otf);
 }
 :root {
   --borde: 1px solid black;
@@ -834,7 +834,11 @@ input {
 }
 @media (max-width: 600px) {
   .container__section {
-    height: 90vh;
+    height: 110vh;
+  }
+  .section__nombre{
+    font-size:40px;
+    text-align: center;
   }
 }
 
