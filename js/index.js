@@ -38,8 +38,8 @@ document.addEventListener("DOMContentLoaded", () => {
       ocupacion.textContent = "Creativa.";
     }, 8000);
   };
-  //  slider_word();
-  //  setInterval(slider_word, 12000);
+   slider_word();
+   setInterval(slider_word, 12000);
     item.addEventListener("click", (e) => {
       //cuando agregamos la propiedad data-id desde el html, ésta automaticamente se guarda en el objeto dataSet
       itemElementBefore.map((itemB) => {
