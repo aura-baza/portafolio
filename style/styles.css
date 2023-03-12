@@ -167,7 +167,7 @@ label {
 }
 .container__section {
   width: 93%;
-  height: 90vh;
+  height: 110vh;
   margin: 0px auto;
   padding-top: 30px;
   border-bottom: 2px dotted #2ab0b9;
@@ -621,8 +621,24 @@ input {
   width: 90px;
   padding: 0px;
 }
+.input__hamburguesa{
+  display: none;
+}
 
-@media (max-width: 1032px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 1032px) {
   .section_inicio,
   .section__sobre,
   .section__hab {
@@ -634,7 +650,8 @@ input {
   .container__input {
     width: 95%;
   }
-}
+} */
+
 @media (max-width: 995px) {
   .list {
     width: 60%;
@@ -651,24 +668,24 @@ input {
     object-fit: 80%;
   }
   .container__section {
-    height: 70vh;
+    height: 120vh;
   }
   .container__back-front {
     margin-top: 25px;
     height: 90%;
   }
-  .section__hab {
+  /* .section__hab {
     height: 50vh;
-  }
+  } */
   .card {
     width: 270px;
   }
-
   .container__form__footer {
-    width: 35%;
+    width: 45%;
   }
 }
-@media (max-width: 875px) {
+ 
+@media (max-width: 897px) {
   .container__back-front {
     flex-wrap: wrap;
     gap: 20px;
@@ -676,8 +693,16 @@ input {
     padding: 8px;
     min-height: 550px;
   }
-  .section__hab {
+  /* .section__hab {
     height: 70vh;
+  } */
+  .container__section{
+    border: var(--borde);
+  }
+  .container__input{
+    justify-content: space-between;
+    width: 80%;
+    /* border: var(--borde); */
   }
   .container__icon_footer {
     flex-direction: column;
@@ -685,6 +710,7 @@ input {
     height: 60%;
   }
 }
+/*
 
 @media (max-width: 780px) {
   .menu__titulo {
@@ -710,45 +736,9 @@ input {
   .container__form__footer {
     width: 40% !important;
   }
-}
+} */
+
 @media (max-width: 670px) {
-  .titulo__section {
-    text-align: center;
-  }
-  .descripcion__inicio {
-    flex-direction: column;
-  }
-  .btn__section__inicio {
-    margin: 0px auto;
-  }
-  .container__sobre {
-    flex-direction: column-reverse;
-    gap: 20px;
-  }
-  .paragrah__sobre__mi {
-    font-size: 20px;
-    margin: 0px auto;
-    height: 150px;
-  }
-  .datos__personales {
-    /* display: block; */
-    width:60%;
-    height:180px;
-    margin: 0px auto;
-    gap:10px;
-    margin-bottom: 20px;
-  }
-  .sobre__datos__personales{
-    text-align: center;
-  }
-  .sobre_datos{
-    font-size:20px;
-  }
-  .descargar__cv {
-    display: block;
-    width: max-content;
-    margin: 0px auto;
-  }
   .icon__nav {
     display: none ;
   }
@@ -789,8 +779,44 @@ input {
     opacity: 1;
     cursor: pointer;
   }
-  .card:hover {
+  /* .card:hover {
     transform: none;
+  }
+  .titulo__section {
+    text-align: center;
+  }
+  .descripcion__inicio {
+    flex-direction: column;
+  }
+  .btn__section__inicio {
+    margin: 0px auto;
+  }
+  .container__sobre {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .paragrah__sobre__mi {
+    font-size: 20px;
+    margin: 0px auto;
+    height: 150px;
+  }
+  .datos__personales {
+    width:60%;
+    height:180px;
+    margin: 0px auto;
+    gap:10px;
+    margin-bottom: 20px;
+  }
+  .sobre__datos__personales{
+    text-align: center;
+  }
+  .sobre_datos{
+    font-size:20px;
+  }
+  .descargar__cv {
+    display: block;
+    width: max-content;
+    margin: 0px auto;
   }
   .container__back-front {
     display: grid;
@@ -810,9 +836,9 @@ input {
   }
   .container__form__footer {
     width: 45% !important;
-  }
+  } */
 }
-
+/* 
 @media (max-width: 615px) {
   .container__contacto {
     display: flex;
@@ -880,7 +906,6 @@ input {
   }
   .container__sobre {
     flex-direction: column-reverse;
-    /* gap: 20px; */
   }
   .container__sobre__inside {
     width: 100%;
@@ -919,4 +944,4 @@ input {
 .hamburguesa {
   position: relative;
   z-index: 7000;
-}
+} */

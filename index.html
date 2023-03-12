@@ -1,225 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ing. Aura Baza</title>
-    <link rel="stylesheet" href="style/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,100&display=swap"
-        rel="stylesheet">
-    <script defer src="js/index.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ing. Aura Baza</title>
+  <link rel="stylesheet" href="style/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,100&display=swap"
+    rel="stylesheet">
+  <script defer src="js/index.js"></script>
 </head>
+
 <body>
-    <div class="portafolio">
-        <nav class="menu">
-            <div class="menu__container">
-                <a href="#inicio" class="menu__titulo">Aura Baza
-                    <span class="span__nombre">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </span>
-                </a>
-                <input class="input__hamburguesa" id="id__hamburguesa"type="checkbox">
-                <label class="hamburguesa" for="id__hamburguesa"></label>
-                <ul class="list">
-                    <li class="list__items"><a data-id="0" class="items__link seleccionado" href="#inicio"><span
-                                class="element_before"></span> <span class="leyenda">Inicio</span> <figure class="icon__nav icon__inicio" ></figure> </a></li>
+  <div class="portafolio">
+    <nav class="menu">
+      <div class="menu__container">
+        <a href="#inicio" class="menu__titulo">Aura Baza
+          <span class="span__nombre">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </a>
+        <input class="input__hamburguesa" id="id__hamburguesa" type="checkbox">
+        <label class="hamburguesa" for="id__hamburguesa"></label>
+        <ul class="list">
+          <li class="list__items"><a data-id="0" class="items__link seleccionado" href="#inicio"><span
+                class="element_before"></span> <span class="leyenda">Inicio</span>
+              <figure class="icon__nav icon__inicio"></figure>
+            </a></li>
 
-                    <li class="list__items sobre_mi"><a data-id="1" class="items__link" href="#sobre_mi"><span
-                                class="element_before"></span> <span class="leyenda">Sobre mí</span> <figure class="icon__nav icon__sobremi" ></figure></a></li>
+          <li class="list__items sobre_mi"><a data-id="1" class="items__link" href="#sobre_mi"><span
+                class="element_before"></span> <span class="leyenda">Sobre mí</span>
+              <figure class="icon__nav icon__sobremi"></figure>
+            </a></li>
 
-                    <li class="list__items"><a data-id="2" class="items__link" href="#habilidades"><span
-                                class="element_before"></span> <span class="leyenda">Habilidades</span> <figure class="icon__nav icon__habilidades" ></figure></a></li>
+          <li class="list__items"><a data-id="2" class="items__link" href="#habilidades"><span
+                class="element_before"></span> <span class="leyenda">Habilidades</span>
+              <figure class="icon__nav icon__habilidades"></figure>
+            </a></li>
 
-                    <li class="list__items"><a data-id="3" class="items__link" href="#proyectos"><span
-                                class="element_before"></span> <span class="leyenda">Proyectos</span> <figure class="icon__nav icon__proyectos" ></figure></a></li>
+          <li class="list__items"><a data-id="3" class="items__link" href="#proyectos"><span
+                class="element_before"></span> <span class="leyenda">Proyectos</span>
+              <figure class="icon__nav icon__proyectos"></figure>
+            </a></li>
 
-                    <li class="list__items"><a data-id="4" class="items__link" href="#contacto"><span
-                                class="element_before"></span> <span class="leyenda">Contacto</span> <figure class="icon__nav icon__contacto" ></figure></a></li>
-                </ul>
+          <li class="list__items"><a data-id="4" class="items__link" href="#contacto"><span
+                class="element_before"></span> <span class="leyenda">Contacto</span>
+              <figure class="icon__nav icon__contacto"></figure>
+            </a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="inicio" class="container__section section_inicio" data-id="0">
+      <h1 class="titulo__section">Inicio</h1>
+      <div class="descripcion__inicio">
+        <img class="img__inicio" src="images/aura_baza.png" alt="">
+        <div class="description__section__inicio">
+          <h3 class="section__nombre">Aura Baza Puello</h3>
+          <span class="section__soy">Soy <span class="ocupaciones"></span></span>
+          <p class="paragrah__inicio"> Veritatis minus vitae praesentium id laborum totam accusantium
+            perspiciatis recusandae, nam architecto vel omnis labore saepe ut!</p>
+          <a class="btn__section__inicio" href="#contacto">Contacto</a>
+        </div>
+      </div>
+    </section>
+    <section id="sobre_mi" class="container__section section__sobre" data-id="1">
+      <h1 class="titulo__section titulo__sobre">Sobre mí</h1>
+      <div class="container__sobre">
+        <div class="container__sobre__inside">
+          <p class="paragrah__sobre__mi">Me considero una persona trabajadora, emprendedora, de buenas
+            costumbres y valores, tanto morales como éticos y religiosos, con capacidad para ejercer
+            cualquier labor que me asignen con responsabilidad y desempeño. Capaz de trabajar en
+            equipo sin diferencias.</p>
+          <div class="datos__personales">
+            <h1 class="sobre__datos__personales">Datos personales</h1>
+            <p class="sobre_datos">Nombre: <span class="datos">Aura Baza Puello</span></p>
+            <p class="sobre_datos">Dirección:<span class="datos">San rafaél Cll principal</span></p>
+            <p class="sobre_datos">Telefono: <span class="datos">3106125920</span></p>
+            <p class="sobre_datos">Correo: <span class="datos">aurabaza17@gmail.com</span></p>
+          </div>
+          <a href="archivo/HV_Aura_baza_puello.docx" class="descargar__cv" download="Aura_Baza_CV">Descargar
+            CV</a>
+        </div>
+        <img class="img__sobre" src="images/about.jpg">
+      </div>
+    </section>
+    <section id="habilidades" class="container__section mobile-habi section__hab" data-id="2">
+      <h1 class="titulo__section">Habilidades</h1>
+      <div class="container__habilidades">
+        <div class="container__back-front">
+          <div class="card">
+            <h1 class="card__titulo">Front-End</h1>
+            <ul class="lista__card">
+              <li class="list__items__card">
+                <figure class="figure__item html"></figure>Html
+              </li>
+              <li class="list__items__card">
+                <figure class="figure__item css"></figure>Css
+              </li>
+              <li class="list__items__card">
+                <figure class="figure__item javascript"></figure>JavaScript
+              </li>
+              <li class="list__items__card">
+                <figure class="figure__item react"></figure>React
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <h1 class="card__titulo">Back-End</h1>
+            <ul class="lista__card">
+              <li class="list__items__card">
+                <figure class="figure__item javascript"></figure>JavaScript
+              </li>
+              <li class="list__items__card">
+                <figure class="figure__item sql"></figure>Sql
+              </li>
+              <li class="list__items__card">
+                <figure class="figure__item nodejs"></figure>Node JS
+              </li>
+              <li class="list__items__card">
+                <figure class="figure__item python"></figure>Python
+              </li>
+            </ul>
+          </div>
+          <div class="card ">
+            <h1 class="card__titulo habilidades__blandas__titulo ">Habilidades Blandas</h1>
+            <div class="todas__habilidades">
+              <ul class=" lista__card">
+                <li class="list__items__card">
+                  <figure class="figure__item tecnologia"></figure>Tecnología
+                </li>
+                <li class="list__items__card">
+                  <figure class="figure__item musica"></figure>Musica
+                </li>
+                <li class="list__items__card">
+                  <figure class="figure__item pintura"></figure>Pintura
+                </li>
+                <li class="list__items__card">
+                  <figure class="figure__item poesia"></figure>Poesia
+                </li>
+                <li class="list__items__card">
+                  <figure class="figure__item escritura"></figure>Escritura
+                </li>
+                <li class="list__items__card">
+                  <figure class="figure__item deporte"></figure>Deportes
+                </li>
+              </ul>
             </div>
-        </nav>
-        <section id="inicio" class="container__section section_inicio" data-id="0">
-            <h1 class="titulo__section">Inicio</h1>
-            <div class="descripcion__inicio">
-                <img class="img__inicio" src="images/aura_baza.png" alt="">
-                <div class="description__section__inicio">
-                    <h3 class="section__nombre">Aura Baza Puello</h3>
-                    <span class="section__soy">Soy <span class="ocupaciones"></span></span>
-                    <p class="paragrah__inicio"> Veritatis minus vitae praesentium id laborum totam accusantium
-                        perspiciatis recusandae, nam architecto vel omnis labore saepe ut!</p>
-                    <a class="btn__section__inicio" href="#contacto">Contacto</a>
-                </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="proyectos" class="container__section mobile-proyects" data-id="3">
+      <h1 class="titulo__section media-movil">Proyectos</h1>
+      <div class="container__proyectos">
+        <ul class="lista__filtro">
+          <li class="item__filtro"><button class="btn__filtro">Diseños</button></li>
+          <li class="item__filtro"><button class="btn__filtro">Webs</button></li>
+          <li class="item__filtro"><button class="btn__filtro">App</button></li>
+          <li class="item__filtro"><button class="btn__filtro">Todos</button></li>
+        </ul>
+        <div class="container__card__projects">
+          <div class="card__project">
+            <img src="images/proyecto1.jpg" alt="" class="card__img">
+            <h3 class="card__titulo__proyect">Holy Panadería</h3>
+            <div class="container__info">
+              <p class="descripcion__card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                enim nobis error. Vitae libero rerum alias ab, eum odit deleniti ex quisquam optio earum
+                cupiditate veritatis illo velit, voluptatibus dolores.</p>
+              <button class="btn__ver">Ver Proyecto</button>
             </div>
-        </section>
-        <section id="sobre_mi" class="container__section section__sobre" data-id="1">
-            <h1 class="titulo__section titulo__sobre">Sobre mí</h1>
-            <div class="container__sobre">
-                <div class="container__sobre__inside">
-                    <p class="paragrah__sobre__mi">Me considero una persona trabajadora, emprendedora, de buenas
-                        costumbres y valores, tanto morales como éticos y religiosos, con capacidad para ejercer
-                        cualquier labor que me asignen con responsabilidad y desempeño. Capaz de trabajar en
-                        equipo sin diferencias.</p>
-                    <div class="datos__personales">
-                        <h1 class="sobre__datos__personales">Datos personales</h1>
-                        <p class="sobre_datos">Nombre: <span class="datos">Aura Baza Puello</span></p>
-                        <p class="sobre_datos">Dirección:<span class="datos">San rafaél Cll principal</span></p>
-                        <p class="sobre_datos">Telefono: <span class="datos">3106125920</span></p>
-                        <p class="sobre_datos">Correo: <span class="datos">aurabaza17@gmail.com</span></p>
-                    </div>
-                    <a href="archivo/HV_Aura_baza_puello.docx" class="descargar__cv" download="Aura_Baza_CV">Descargar CV</a>
-                </div>
-                <img class="img__sobre" src="images/about.jpg">
+          </div>
+          <div class="card__project">
+            <img src="images/proyecto4.jpg" alt="" class="card__img">
+            <h3 class="card__titulo__proyect">Software HC</h3>
+            <div class="container__info">
+              <p class="descripcion__card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                minus, velit tempore voluptates voluptate, recusandae consectetur repellendus
+                praesentium soluta facilis deleniti. Possimus aliquid ipsam distinctio dignissimos,
+                obcaecati cumque totam tempora.</p>
+              <button class="btn__ver">Ver Proyecto</button>
             </div>
-        </section>
-        <section id="habilidades" class="container__section mobile-habi section__hab" data-id="2">
-            <h1 class="titulo__section">Habilidades</h1>
-            <div class="container__habilidades">
-                <div class="container__back-front">
-                    <div class="card">
-                        <h1 class="card__titulo">Front-End</h1>
-                        <ul class="lista__card">
-                            <li class="list__items__card">
-                                <figure class="figure__item html"></figure>Html
-                            </li>
-                            <li class="list__items__card">
-                                <figure class="figure__item css"></figure>Css
-                            </li>
-                            <li class="list__items__card">
-                                <figure class="figure__item javascript"></figure>JavaScript
-                            </li>
-                            <li class="list__items__card">
-                                <figure class="figure__item react"></figure>React
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="card">
-                        <h1 class="card__titulo">Back-End</h1>
-                        <ul class="lista__card">
-                            <li class="list__items__card">
-                                <figure class="figure__item javascript"></figure>JavaScript
-                            </li>
-                            <li class="list__items__card">
-                                <figure class="figure__item sql"></figure>Sql
-                            </li>
-                            <li class="list__items__card">
-                                <figure class="figure__item nodejs"></figure>Node JS
-                            </li>
-                            <li class="list__items__card">
-                                <figure class="figure__item python"></figure>Python
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="card ">
-                        <h1 class="card__titulo habilidades__blandas__titulo ">Habilidades Blandas</h1>
-                        <div class="todas__habilidades">
-                            <ul class=" lista__card">
-                                <li class="list__items__card">
-                                    <figure class="figure__item tecnologia"></figure>Tecnología
-                                </li>
-                                <li class="list__items__card">
-                                    <figure class="figure__item musica"></figure>Musica
-                                </li>
-                                <li class="list__items__card">
-                                    <figure class="figure__item pintura"></figure>Pintura
-                                </li>
-                                <li class="list__items__card">
-                                    <figure class="figure__item poesia"></figure>Poesia
-                                </li>
-                                <li class="list__items__card">
-                                    <figure class="figure__item escritura"></figure>Escritura
-                                </li>
-                                <li class="list__items__card">
-                                    <figure class="figure__item deporte"></figure>Deportes
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="card__project">
+            <img src="images/proyecto2.jpg" alt="" class="card__img">
+            <h3 class="card__titulo__proyect">Lista de tareas</h3>
+            <div class="container__info">
+              <p class="descripcion__card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                minus, velit tempore voluptates voluptate, recusandae consectetur repellendus
+                praesentium soluta facilis deleniti. Possimus aliquid ipsam distinctio dignissimos,
+                obcaecati cumque totam tempora.</p>
+              <button class="btn__ver">Ver Proyecto</button>
             </div>
-        </section>
-        <section id="proyectos" class="container__section mobile-proyects" data-id="3">
-            <h1 class="titulo__section media-movil">Proyectos</h1>
-            <div class="container__proyectos">
-               <ul class="lista__filtro">
-                <li class="item__filtro"><button class="btn__filtro">Diseños</button></li>
-                <li class="item__filtro"><button class="btn__filtro">Webs</button></li>
-                <li class="item__filtro"><button class="btn__filtro">App</button></li>
-                <li class="item__filtro"><button class="btn__filtro">Todos</button></li>
-               </ul>
-               <div class="container__card__projects">
-                <div class="card__project">
-                    <img src="images/proyecto1.jpg" alt="" class="card__img">
-                    <h3 class="card__titulo__proyect">Holy Panadería</h3>
-                    <div class="container__info">
-                        <p class="descripcion__card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim nobis error. Vitae libero rerum alias ab, eum odit deleniti ex quisquam optio earum cupiditate veritatis illo velit, voluptatibus dolores.</p>
-                        <button class="btn__ver">Ver Proyecto</button>
-                    </div>
-                </div>
-                <div class="card__project">
-                    <img src="images/proyecto4.jpg" alt="" class="card__img">
-                    <h3 class="card__titulo__proyect">Software HC</h3>
-                    <div class="container__info">
-                        <p class="descripcion__card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt minus, velit tempore voluptates voluptate, recusandae consectetur repellendus praesentium soluta facilis deleniti. Possimus aliquid ipsam distinctio dignissimos, obcaecati cumque totam tempora.</p>
-                        <button class="btn__ver">Ver Proyecto</button>
-                    </div>
-                </div>
-                <div class="card__project">
-                    <img src="images/proyecto2.jpg" alt="" class="card__img">
-                    <h3 class="card__titulo__proyect">Lista de tareas</h3>
-                    <div class="container__info">
-                        <p class="descripcion__card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt minus, velit tempore voluptates voluptate, recusandae consectetur repellendus praesentium soluta facilis deleniti. Possimus aliquid ipsam distinctio dignissimos, obcaecati cumque totam tempora.</p>
-                        <button class="btn__ver">Ver Proyecto</button>
-                    </div>
-                </div>
-                <div class="card__project">
-                <img src="images/proyecto3.jpg" alt="" class="card__img">
-                <h3 class="card__titulo__proyect">Emoji Pickers</h3>  
-                <div class="container__info">
-                    <p class="descripcion__card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt minus, velit tempore voluptates voluptate, recusandae consectetur repellendus praesentium soluta facilis deleniti. Possimus aliquid ipsam distinctio dignissimos, obcaecati cumque totam tempora.</p>
-                    <button class="btn__ver">Ver Proyecto</button>
-                </div>                  
-                </div>
-               </div>
+          </div>
+          <div class="card__project">
+            <img src="images/proyecto3.jpg" alt="" class="card__img">
+            <h3 class="card__titulo__proyect">Emoji Pickers</h3>
+            <div class="container__info">
+              <p class="descripcion__card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                minus, velit tempore voluptates voluptate, recusandae consectetur repellendus
+                praesentium soluta facilis deleniti. Possimus aliquid ipsam distinctio dignissimos,
+                obcaecati cumque totam tempora.</p>
+              <button class="btn__ver">Ver Proyecto</button>
             </div>
-        </section>
-        <section id="contacto" class="container__section footer" data-id="4">
-            <h1 class="titulo__section">Contacto</h1>
-            <div class="container__contacto">
-                <div class="container__icon_footer">
-                    <h3 class="contactame">Contactame:</h3>
-                    <img src="icons/gmail.svg" alt="" class="img__contacto">
-                    <img src="icons/github.svg" alt="" class="img__contacto">
-                    <img src="icons/gitlab_color.svg" alt="" class="img__contacto">
-                    <img src="icons/linkedin.svg" alt="" class="img__contacto">
-                </div>
-                 <form class="container__form__footer" >
-                    <h3 class="titulo__form">Forma de contactarme</h3>
-                    <div class="container__input">
-                        <label>Nombre</label>
-                    <input type="text">
-                    </div>
-                    <div class="container__input">
-                        <label>Correo</label>
-                    <input type="text">
-                    </div>
-                    <div class="container__input">
-                        <label>Telefono</label>
-                        <input type="number">
-                    </div>
-                    <div class="container__input">
-                        <label>Mensaje</label>
-                        <textarea class="texta" name="" id="" cols="25" rows="4"></textarea>
-                    </div>
-                    <button class="btn__section__inicio btn__enviar">Enviar</button>
-                </form>
-            </div>
-        </section>
-    </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contacto" class="container__section footer" data-id="4">
+      <h1 class="titulo__section">Contacto</h1>
+      <div class="container__contacto">
+        <div class="container__icon_footer">
+          <h3 class="contactame">Contactame:</h3>
+          <img src="icons/gmail.svg" alt="" class="img__contacto">
+          <img src="icons/github.svg" alt="" class="img__contacto">
+          <img src="icons/gitlab_color.svg" alt="" class="img__contacto">
+          <img src="icons/linkedin.svg" alt="" class="img__contacto">
+        </div>
+        <form class="container__form__footer">
+          <h3 class="titulo__form">Forma de contactarme</h3>
+          <div class="container__input">
+            <label>Nombre</label>
+            <input type="text">
+          </div>
+          <div class="container__input">
+            <label>Correo</label>
+            <input type="text">
+          </div>
+          <div class="container__input">
+            <label>Telefono</label>
+            <input type="number">
+          </div>
+          <div class="container__input">
+            <label>Mensaje</label>
+            <textarea class="texta" name="" id="" cols="25" rows="4"></textarea>
+          </div>
+          <button class="btn__section__inicio btn__enviar">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </div>
 </body>
 
 </html>
