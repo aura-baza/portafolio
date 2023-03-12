@@ -935,8 +935,11 @@ input {
   }
 }
 @media (max-width: 450px) {
-  .container__section{
-    border:1px solid black;
+  .section_inicio{
+    height: 110vh;
+  }
+  .section__sobre{
+    height: 150vh;
   }
   .ocupaciones {
     font-size: 18px;
@@ -946,7 +949,7 @@ input {
   }
   .section__nombre{
     width: 100%;
-    font-size: 28px;
+    font-size: 25px;
   }
   .sobre__datos__personales{
     font-size: 28px;
@@ -962,6 +965,3 @@ input {
     width:64%;
   }
 }
-/* *{
-  font-family: firma;
-} */
