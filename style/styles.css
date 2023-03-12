@@ -669,9 +669,6 @@ input {
     margin-top: 25px;
     height: 90%;
   }
-  /* .section__hab {
-    height: 50vh;
-  } */
   .card {
     width: 270px;
   }
@@ -697,7 +694,6 @@ input {
   .container__input {
     justify-content: space-between;
     width: 80%;
-    /* border: var(--borde); */
   }
   .container__icon_footer {
     flex-direction: column;
@@ -707,13 +703,6 @@ input {
 }
 
 @media (max-width: 780px) {
-  /* .menu__titulo {
-    width: 150px;
-    height: 30px;
-    font-size: 22px;
-    padding: 2px 5px;
-    text-align: center;
-  } */
   .titulo__sobre {
     margin-bottom: 25px;
   }
@@ -740,10 +729,6 @@ input {
     width: 40%;
     height: 48%;
   }
-  /* .container__section{
-    height: 130vh;
-  } */
-  
   .titulo__section {
     text-align: center;
   }
@@ -751,8 +736,6 @@ input {
     flex-direction: column;
     gap: 20px;
     justify-content: start;
-
-    /* height: 85%; */
   }
   .container__sobre {
     flex-direction: column-reverse;
@@ -799,12 +782,6 @@ input {
   .leyenda {
     display: block;
   }
-  /* .menu__titulo {
-    width: 120px;
-    padding-top: 5px;
-    height: 35px;
-    font-size: 20px;
-  } */
   .list {
     position: fixed;
     background: rgb(255, 241, 241);
@@ -932,20 +909,10 @@ input {
 }
 
 @media (max-width: 600px) {
-  /* .container__section {
-    height: 130vh;
-  }
-  .section_inicio{
-    height: 90vh;
-  } */
   .paragrah__inicio,
   .paragrah__sobre__mi {
     font-size: 18px;
   }
-  /* .section__nombre{
-    font-size:40px;
-    text-align: center;
-  } */
 }
 
 @media (max-width: 550px) {
@@ -962,14 +929,15 @@ input {
   }
   .section__soy{
     font-size:17px ;
-
   }
   .ocupaciones{
     font-size:17px ;
-
   }
 }
 @media (max-width: 450px) {
+  .container__section{
+    border:1px solid black;
+  }
   .ocupaciones {
     font-size: 18px;
   }
@@ -984,84 +952,16 @@ input {
     font-size: 28px;
   }
   .container__input{
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: start;
   }
   .container__form__footer{
     height: 70%;
   }
-  .footer{
-    border: 1px solid black;
+  .texta{
+    width:64%;
   }
 }
-*{
+/* *{
   font-family: firma;
-}
-/* 
-@media (max-width: 375px) {
-    .container__section{
-        height:80vh;
-    }
-  .icon__nav {
-    display: none;
-  }
-  .leyenda {
-    display: block;
-  }
-  .description__section__inicio {
-    width: 100%;
-  }
-  .titulo__section {
-    text-align: center;
-    font-size: 40px;
-  }
-  .section__nombre,
-  .section__soy {
-    font-size: 30px;
-    text-align: center;
-  }
-  .btn__section__inicio {
-    margin: 0px auto;
-  }
-  .container__sobre {
-    flex-direction: column-reverse;
-  }
-  .container__sobre__inside {
-    width: 100%;
-  }
-  .paragrah__sobre__mi {
-    width: 100%;
-  }
-  .img__sobre {
-    width: 60% ;
-    height: 100%;
-    object-fit: contain;
-  }
-  .datos__personales{
-    width: 100%;
-    margin-top: 20px;
-  }
-  .btn__filtro {
-    width: 60px;
-  }
-  .footer {
-    height: 100vh;
-  }
-  .container__contacto {
-    width: 100%;
-    flex-direction: column;
-  }
- .container__icon_footer{
-    flex-direction: column;
-    gap:5px;
-    height:250px;
- }
-}
-.input__hamburguesa {
-  display: none;
-}
-.hamburguesa {
-  position: relative;
-  z-index: 7000;
-} 
-*/
+} */
