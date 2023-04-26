@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <h3 class="card__titulo__proyect">${array[i].name}</h3>
         <div class="container__info">
           <p class="descripcion__card">${array[i].description}</p>
-          <button  href=${array[i].link} class="btn__ver">Ver Proyecto</button>
+          <a target="_blank" href=${array[i].link} class="btn__ver">Ver Proyecto</a>
         </div>
       </div>
         `;
