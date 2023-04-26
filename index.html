@@ -11,7 +11,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,100&display=swap"
     rel="stylesheet">
-  <script defer src="js/index.js"></script>
 </head>
 
 <body>
@@ -166,7 +165,7 @@
           <li class="item__filtro"><button class="btn__filtro">Todos</button></li>
         </ul>
         <div class="container__card__projects">
-          <div class="card__project">
+          <!-- <div class="card__project">
             <img src="images/proyecto1.jpg" alt="" class="card__img">
             <h3 class="card__titulo__proyect">Holy Panadería</h3>
             <div class="container__info">
@@ -208,7 +207,7 @@
                 obcaecati cumque totam tempora.</p>
               <button class="btn__ver">Ver Proyecto</button>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -222,29 +221,35 @@
           <img src="icons/gitlab_color.svg" alt="" class="img__contacto">
           <img src="icons/linkedin.svg" alt="" class="img__contacto">
         </div>
-        <form class="container__form__footer">
+        <form class="container__form__footer" action="https://formspree.io/f/mlekazva" method="POST">
           <h3 class="titulo__form">Forma de contactarme</h3>
           <div class="container__input">
             <label>Nombre</label>
-            <input type="text">
+            <input type="text" name="name">
           </div>
           <div class="container__input">
             <label>Correo</label>
-            <input type="text">
+            <input type="text" name="email">
           </div>
           <div class="container__input">
             <label>Telefono</label>
-            <input type="number">
+            <input type="number" name="phone">
           </div>
           <div class="container__input">
             <label>Mensaje</label>
-            <textarea class="texta" name="" id="" cols="25" rows="4"></textarea>
+            <textarea class="texta" name="message" id="" cols="25" rows="4"></textarea>
           </div>
-          <button class="btn__section__inicio btn__enviar">Enviar</button>
+          <input type="submit" class="btn__section__inicio btn__enviar">
+          <!-- <input type="hidden" name="_next" value="http://127.0.0.1:5500/portafolio/"> -->
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/portafolio/">
+          <input type="hidden" name="_capchat" value="false">
         </form>
       </div>
     </section>
   </div>
+  <script type="module" src="js/index.js"></script>
+  <script type="module" src="js/data.js"></script>
+
 </body>
 
 </html>

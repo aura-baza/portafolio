@@ -90,11 +90,12 @@ label {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  position: absolute;
   right: 0;
   width: 30px;
   height: 30px;
   opacity: 0;
+  position: relative;
+  z-index: 7000;
 }
 .list {
   display: flex;
@@ -815,6 +816,12 @@ input {
     width: 100%;
     height: 100%;
   }
+  .input__hamburguesa:checked ~ .hamburguesa {
+      background-image: url(../icons/close.svg); 
+      color: #2aafb9;
+      width: 30px;
+      height:30px ;
+  }
   .list__items {
     font-size: 30px;
   }
@@ -822,66 +829,11 @@ input {
     opacity: 1;
     cursor: pointer;
   }
-  /* .card:hover {
+  .card:hover {
     transform: none;
   }
-  .titulo__section {
-    text-align: center;
-  }
-  .descripcion__inicio {
-    flex-direction: column;
-  }
-  .btn__section__inicio {
-    margin: 0px auto;
-  }
-  .container__sobre {
-    flex-direction: column-reverse;
-    gap: 20px;
-  }
-  .paragrah__sobre__mi {
-    font-size: 20px;
-    margin: 0px auto;
-    height: 150px;
-  }
-  .datos__personales {
-    width:60%;
-    height:180px;
-    margin: 0px auto;
-    gap:10px;
-    margin-bottom: 20px;
-  }
-  .sobre__datos__personales{
-    text-align: center;
-  }
-  .sobre_datos{
-    font-size:20px;
-  }
-  .descargar__cv {
-    display: block;
-    width: max-content;
-    margin: 0px auto;
-  }
-  .container__back-front {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, min-max(300px, 300px));
-    gap: 20px;
-    margin-top: 20px;
-    justify-content: space-evenly;
-  }
-  .lista__filtro {
-    width: 90%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  .container__icon_footer {
-    flex-direction: column;
-    height: 320px;
-  }
-  .container__form__footer {
-    width: 45% !important;
-  } */
+ 
 }
-
 @media (max-width: 615px) {
   .container__contacto {
     display: flex;
@@ -955,7 +907,6 @@ input {
     font-size: 28px;
   }
   .container__input{
-    /* flex-direction: column; */
     align-items: start;
   }
   .container__form__footer{
