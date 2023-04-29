@@ -6,6 +6,7 @@ export let projects =[
     {id:5, description:"Muestra el incremento o decremento de un numero deacuerdo al boton que se le de click", name:"Counter", link:"https://aura-baza.github.io/counter/", image:"./images_projects/img_counter.png", category:"webs"},
     {id:6, description:"Muestra colores de manera aleatoria", name:"Show Colors", link:"https://aura-baza.github.io/showing_colors/", image:"./images_projects/img_colors.png", category:"webs"},
     {id:7, description:"Esta pequeña aplicacion muestra una ventanita al dar click al boton que corresponde mostrarla", name:"Show Modal", link:"https://aura-baza.github.io/modal/", image:"./images_projects/img_modal.png", category:"app"},
+    {id:8, description:"Esta pequeña aplicacion muestra la hora y fecha en tiempo real", name:"Date and Time", link:"https://aura-baza.github.io/date_and_time/", image:"./images_projects/img_clock.png", category:"app"},
 ];
 
 
