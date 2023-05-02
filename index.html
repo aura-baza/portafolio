@@ -9,11 +9,15 @@
   <link rel="stylesheet" href="style/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,100&display=swap"
     rel="stylesheet">
 </head>
 
 <body>
+  <figure class="container__iconScroll">
+    <i class="fa-sharp fa-solid fa-jet-fighter-up colorIcon"></i>
+  </figure>
   <div class="portafolio">
     <nav class="menu">
       <div class="menu__container">
@@ -83,8 +87,11 @@
             <p class="sobre_datos">Telefono: <span class="datos">3106125920</span></p>
             <p class="sobre_datos">Correo: <span class="datos">aurabaza17@gmail.com</span></p>
           </div>
-          <a href="archivo/HV_Aura_baza_puello.docx" class="descargar__cv" download="Aura_Baza_CV">Descargar
+          <div class="box__btn">
+            <a href="./archivo/AURA-BAZA-CV.pdf" class="descargar__cv" target="_blank">Ver CV </a>
+            <a href="archivo/HV_Aura_baza_puello.docx" class="descargar__cv" download="Aura_Baza_CV">Descargar
             CV</a>
+          </div>
         </div>
         <img class="img__sobre" src="images/about.jpg">
       </div>
@@ -159,10 +166,10 @@
       <h1 class="titulo__section media-movil">Proyectos</h1>
       <div class="container__proyectos">
         <ul class="lista__filtro">
-          <li class="item__filtro"><button class="btn__filtro">Diseños</button></li>
-          <li class="item__filtro"><button class="btn__filtro">Webs</button></li>
-          <li class="item__filtro"><button class="btn__filtro">App</button></li>
-          <li class="item__filtro"><button class="btn__filtro">Todos</button></li>
+          <li class="item__filtro"><button class="btn__filtro ">Diseños</button></li>
+          <li class="item__filtro"><button class="btn__filtro ">Webs</button></li>
+          <li class="item__filtro"><button class="btn__filtro ">App</button></li>
+          <li class="item__filtro"><button class="btn__filtro bgColorActiveBtn">Todos</button></li>
         </ul>
         <div class="container__card__projects">
         </div>

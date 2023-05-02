@@ -3,12 +3,10 @@ import { projects } from "./data.js";
 document.addEventListener("DOMContentLoaded", () => {
   const itemNav = [...document.querySelectorAll(".items__link")];
   const itemElementBefore = [...document.querySelectorAll(".element_before")];
-  const inputMenu = document.querySelector(".input__hamburguesa");
-  const containerCardProjects = document.querySelector(
-    ".container__card__projects"
-  );
-  const btnsProjects = [...document.querySelectorAll(".item__filtro")];
-
+  const inputMenu = document.querySelector(".input__hamburguesa"); 
+  const containerCardProjects = document.querySelector(".container__card__projects");
+  const btnsProjects = [...document.querySelectorAll(".btn__filtro")];
+  const figureScroll =document.querySelector(".container__iconScroll");
   itemNav.map((item) => {
     //activando cada item del nav mediante le scroll.
     let heightSection = (window.innerHeight / 3) * 2;
@@ -27,17 +25,27 @@ document.addEventListener("DOMContentLoaded", () => {
     };
     const listSection = [...document.querySelectorAll(".container__section")];
     window.addEventListener("scroll", () => {
+      let distanceScroll=window.scrollY;
+      if (distanceScroll>700) {
+        figureScroll.classList.add("active__scroll");
+      }else{
+        figureScroll.classList.remove("active__scroll");
+
+      }
       activeItem();
+    });
+    figureScroll.addEventListener("click", ()=>{
+      window.scrollTo(0,0);
     });
     //creando slider de palabbras mediante la funcion setTimeout.
     const ocupacion = document.querySelector(".ocupaciones");
     const slider_word = () => {
       setTimeout(() => {
-        ocupacion.style.color = "black";
+        ocupacion.style.color = "blue";
         ocupacion.textContent = "Ingeniera.";
       }, 0);
       setTimeout(() => {
-        ocupacion.style.color = "blue";
+        ocupacion.style.color = "green";
         ocupacion.textContent = "Programadora.";
       }, 4000);
       setTimeout(() => {
@@ -86,6 +94,12 @@ document.addEventListener("DOMContentLoaded", () => {
   for (let i = 0; i < btnsProjects.length; i++) {
     let btn=btnsProjects[i];
     btn.addEventListener("click", (e) => {
+      for (let j = 0; j < btnsProjects.length; j++) {
+          let btnActive=btnsProjects[j];
+  
+          btnActive.classList.remove("bgColorActiveBtn");       
+      }
+      btn.classList.add("bgColorActiveBtn");
       if (e.target.textContent.toLowerCase()==="todos".toLowerCase()) {
         showProjects(projects);
       }else{
