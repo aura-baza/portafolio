@@ -7,7 +7,7 @@ export let projects =[
     {id:6, description:"Muestra colores de manera aleatoria", name:"Show Colors", link:"https://aura-baza.github.io/showing_colors/", image:"./images_projects/img_colors.png", category:"webs"},
     {id:7, description:"Esta pequeña aplicacion muestra una ventanita al dar click al boton que corresponde mostrarla", name:"Show Modal", link:"https://aura-baza.github.io/modal/", image:"./images_projects/img_modal.png", category:"app"},
     {id:8, description:"Esta pequeña aplicacion muestra la hora y fecha en tiempo real", name:"Date and Time", link:"https://aura-baza.github.io/date_and_time/", image:"./images_projects/img_clock.png", category:"app"},
-    {id:9, description:"Este es un diseño moderno y llamativo. Permitirá bien sea iniciar sesión o registrarte sino tienes una cuenta", name:"Login and Register", link:"https://aura-baza.github.io/register_and_login/", image:"./images_projects/img_login.png", category:"diseño"},
+    {id:9, description:"Este es un diseño moderno y llamativo. Permitirá bien sea iniciar sesión o registrarte sino tienes una cuenta", name:"Login and Register", link:"https://aura-baza.github.io/login_and_register/", image:"./images_projects/img_login.png", category:"diseños"},
 ];
 
 
