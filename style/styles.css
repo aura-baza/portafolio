@@ -219,7 +219,8 @@ label {
   gap: 25px;
 }
 .img__inicio {
-  width: 30%;
+  object-fit: contain;
+  width:30%;
   height: 80%;
   object-fit: 80%;
 }
