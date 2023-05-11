@@ -331,7 +331,7 @@ label {
 .img__sobre {
   width: 34%;
   height: 80%;
-  object-fit: cover;
+  object-fit:contain;
 }
 .descargar__cv {
   width:35%;
